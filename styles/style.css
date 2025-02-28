@@ -110,12 +110,12 @@ body {
 }
 
 .presentation__image {
-    width: 250px;
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0px 5px 10px rgba(0, 255, 163, 0.2);
-    margin-top: 20px;
+  width: 250px;
+    height: 250px;
+    border-radius: 50%; 
+    border: 5px solid #64FFDA; 
+    box-shadow: 0 0 15px rgba(100, 255, 218, 0.4); 
+    object-fit: cover; 
 }
 
 .about {
